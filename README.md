@@ -1,4 +1,4 @@
-# Deepest Deep Learning Task
+# Deepest Task
 
 ### Submission
 (TBD)
