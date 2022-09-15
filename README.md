@@ -7,7 +7,9 @@
 (TBD)
 
 ### Solution
-(TBD)
+- RoBERTa
+- Pre-trained Model
+- LP-FT
 
 ### Loss Graph
 (TBD)
