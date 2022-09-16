@@ -7,10 +7,10 @@
 ### Run
 
 1. Setup environment.
-""" Bash
+``` Bash
 # Python 3.7.10
 >> pip install -r requirements.txt
-"""
+```
 2. Click "Run All" button in jupyter notebook.
 3. Check the results.
 
