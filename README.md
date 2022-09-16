@@ -19,6 +19,7 @@
 ### Solution
 
 - **RoBERTa**: (1) robustly optimized BERT approach. (2) training the model longer, with bigger batches over more data. (3) removing the next sentence prediction objective. (4) training on longer sequences. (5) dynamically changing the masking pattern applied to the training data.
+- **Sentence Summary**: This model computes context vector as the weighted average of last hidden states.
 - **Pre-training on CLRP**: This model is pre-trained on CommonLit Readability Dataset on MLM task.
 - **LP-FT**: Naive full fine-tuning can distort the pretrained feature extractor. The test error of fine-tuning is high when we initialize with a fixed or random head. This is because while fine-tuning learns the head, the lower layers of the neural network change simultaneously and distort the pretrained features.
 
