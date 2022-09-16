@@ -4,7 +4,7 @@
 
 ### Submission
 
-(TBD)
+![submission](assets/submission.png)
 
 ### Run
 
@@ -20,7 +20,7 @@
 
 ### Loss Graph
 
-(TBD)
+![loss](assets/loss.png)
 
 ### References
 
