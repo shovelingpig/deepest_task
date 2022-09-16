@@ -18,7 +18,7 @@
 
 ### Solution
 
-- RoBERTa
+- RoBERTa: (1) training the model longer, with bigger batches over more data (2) removing the next sentence prediction objective (3) training on longer sequences (4) dynamically changing the masking pattern applied to the training data.
 - Pre-trained Model: This model is pre-trained on CommonLit Readability Dataset on MLM task.
 - LP-FT: Naive full fine-tuning can distort the pretrained feature extractor. The test error of fine-tuning is high **when we initialize with a fixed or random head**. This is because while fine-tuning learns the head, the lower layers of the neural network change simultaneously and distort the pretrained features.
 
