@@ -8,8 +8,10 @@
 
 ### Run
 
-1. Click **"Run All"** button in [kaggle notebook](https://www.kaggle.com/code/shovelingpig2/roberta-solution/edit/run/105780148) or jupyter notebook.
-2. Check the training results.
+1. Copy [this kaggle notebook](https://www.kaggle.com/code/andretugan/pre-trained-roberta-solution-in-pytorch/notebook).
+2. Click **"File > Import Notebook"** and import deepest_question3_kaggle.ipynb file.
+3. Click **"Run All"** button in [kaggle notebook](https://www.kaggle.com/code/shovelingpig2/roberta-solution/edit/run/105780148) or jupyter notebook.
+4. Check the training results.
 
 ### Solution
 
