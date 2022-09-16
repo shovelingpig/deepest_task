@@ -15,7 +15,6 @@
 ```
 2. Click **"Run All"** button in jupyter notebook.
 3. Check the training results.
-4. Inference using trained model.
 
 ### Solution
 
