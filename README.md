@@ -13,6 +13,7 @@
 # Python 3.7.10
 >> conda create -n deepest python=3.8 cudatoolkit=11.3 -y
 >> conda activate deepest
+>> conda install -n deepest ipykernel --update-deps --force-reinstall
 >> conda install pytorch torchvision torchaudio cudatoolkit=11.3 tensorboard -c pytorch -c nvidia -y
 >> pip install -r requirements.txt
 ```
