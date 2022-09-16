@@ -8,17 +8,8 @@
 
 ### Run
 
-1. Setup environment.
-``` Bash
-# Python 3.7.10
->> conda create -n deepest python=3.8 cudatoolkit=11.3 -y
->> conda activate deepest
->> conda install -n deepest ipykernel --update-deps --force-reinstall
->> conda install pytorch torchvision torchaudio cudatoolkit=11.3 tensorboard -c pytorch -c nvidia -y
->> pip install -r requirements.txt
-```
-2. Click **"Run All"** button in jupyter notebook.
-3. Check the training results.
+1. Click **"Run All"** button in jupyter notebook.
+2. Check the training results.
 
 ### Solution
 
