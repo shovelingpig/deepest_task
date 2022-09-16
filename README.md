@@ -19,7 +19,7 @@
 ### Solution
 
 - RoBERTa
-- Pre-trained Model
+- Pre-trained Model: This model is pre-trained on CommonLit Readability Dataset on MLM task.
 - LP-FT: Naive full fine-tuning can distort the pretrained feature extractor. The test error of fine-tuning is high **when we initialize with a fixed or random head**. This is because while fine-tuning learns the head, the lower layers of the neural network change simultaneously and distort the pretrained features.
 
 ### Loss Graph
@@ -30,4 +30,5 @@
 
 - [RoBERTa Paper](https://arxiv.org/abs/1907.11692)
 - [LP-FT Paper](https://arxiv.org/abs/2202.10054)
-- [Pre-trained RoBERTa Kaggle Notebook](https://www.kaggle.com/code/andretugan/pre-trained-roberta-solution-in-pytorch/notebook)
+- [CLRP Pre-trained RpBERTa Checkpoint](https://www.kaggle.com/datasets/maunish/clrp-roberta-base)
+- [RoBERTa Kaggle Notebook](https://www.kaggle.com/code/andretugan/pre-trained-roberta-solution-in-pytorch/notebook)
