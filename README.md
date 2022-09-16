@@ -20,7 +20,7 @@
 
 - RoBERTa
 - Pre-trained Model
-- LP-FT: Naive full fine-tuning can distort the pretrained feature extractor. The test error of fine-tuning is high **when we initialize with a fixed or random head**. this is because while fine-tuning learns the head, the lower layers of the neural network change simultaneously and distort the pretrained features.
+- LP-FT: Naive full fine-tuning can distort the pretrained feature extractor. The test error of fine-tuning is high **when we initialize with a fixed or random head**. This is because while fine-tuning learns the head, the lower layers of the neural network change simultaneously and distort the pretrained features.
 
 ### Loss Graph
 
