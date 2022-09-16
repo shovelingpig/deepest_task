@@ -22,7 +22,7 @@
 
 ### Loss Graph
 
-![loss](assets/loss.png)
+![loss](assets/loss2.png)
 
 ### References
 
